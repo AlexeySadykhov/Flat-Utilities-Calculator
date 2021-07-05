@@ -16,7 +16,7 @@ def connect_to_db(path):
         print(f"The error '{e}' occurred")
         sys.exit(1)
     return connection
-connection = connect_to_db('/Users/mr.viatoris/flat_utilities.db')
+connection = connect_to_db('/Users/username/flat_utilities.db')
 
 def select_request(connection, request):
     cursor = connection.cursor()
